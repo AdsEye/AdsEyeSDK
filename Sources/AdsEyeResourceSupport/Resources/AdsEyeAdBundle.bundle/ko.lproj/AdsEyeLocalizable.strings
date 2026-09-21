@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  adseye_demo
+
+  Created by xusheng on 2025/12/1.
+  
+*/
+
+// 韩语
+"view_now_button" = "보기";
+"skip_button" = "건너뛰기";
+"install_button" = "설치하기";
+"download_button" = "다운로드";
+"downloading_status" = "다운로드 중";
+"allow_install_alert" = "앱 설치 허용";
+"replay_button" = "다시보기";
+"retry_button" = "재시도";
+"close_button" = "닫기";
+"refresh_button" = "새로고침";
+"view_action" = "보기";
+"just_now_time" = "방금 전";
+"learn_more_link" = "더 알아보기";
