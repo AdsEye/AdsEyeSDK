@@ -21,6 +21,15 @@ ADX 和各聚合 Adapter 使用独立仓库，需要时可以继续通过 Add Pa
 | `AdsEyeTopOn` | `https://github.com/AdsEye/AdsEyeSDK-TopOn.git` |
 | `AdsEyeAdMob` | `https://github.com/AdsEye/AdsEyeSDK-AdMob.git` |
 
+## App 根目录资源
+
+SwiftPM 不能把 Package 资源直接复制到宿主 App 根目录。请从本仓库 `RootResources/` 下载并将以下 bundle 添加到 App target 的 **Copy Bundle Resources**：
+
+- `AdsEyeAdBundle.bundle`
+
+最终产物必须是 `YourApp.app/<BundleName>.bundle`，不能位于 SwiftPM 自动生成的外层资源 bundle 中。
+
+
 ## Linker setting
 
 媒体 App target 的 **Other Linker Flags** 必须包含：

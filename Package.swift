@@ -6,22 +6,17 @@ let package = Package(
     name: "AdsEyeAdSDK",
     platforms: [.iOS(.v13)],
     products: [
-        .library(name: "AdsEyeAdSDK", targets: ["AdsEyeResourceSupport"])
+        .library(name: "AdsEyeAdSDK", targets: ["AdsEyeCoreLinker"])
     ],
     dependencies: [
         
     ],
     targets: [
         .target(
-    name: "AdsEyeResourceSupport",
+    name: "AdsEyeCoreLinker",
     dependencies: [
         .target(name: "AdsEyeAdSDK")
     ],
-    resources: [
-        .copy("Resources/AdsEyeAdBundle.bundle"),
-        .copy("Resources/AdsEyeADXAdBundle.bundle")
-    ],
-    publicHeadersPath: "include",
     linkerSettings: [
         .linkedFramework("UIKit"),
               .linkedFramework("Foundation"),
