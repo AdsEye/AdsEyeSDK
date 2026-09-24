@@ -42,8 +42,8 @@ let package = Package(
 ),
               .binaryTarget(
     name: "AdsEyeAdSDK",
-    url: "https://cpc-static-docs.oss-cn-beijing.aliyuncs.com/adseye_sdk_ios/1.4.21/spm/AdsEyeAdSDK-1.4.21-09101108.zip",
-    checksum: "85c9301c3018d7168d89d756ca7aeeef4d2cd357d81f8be184cc01ba02db3efc"
+    url: "https://cpc-static-docs.oss-cn-beijing.aliyuncs.com/adseye_sdk_ios/1.4.21/spm/AdsEyeAdSDK-1.4.21-09241551.zip",
+    checksum: "1190b9ace47fcdaecf838d4d038e24d1f67cf792a31950e80e73f9d14a92ab4a"
 )
     ]
 )
