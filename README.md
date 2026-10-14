@@ -1,12 +1,12 @@
 # AdsEyeAdSDK Swift Package
 
-AdsEye Core SDK `1.4.22`。
+AdsEye Core SDK `1.4.23`。
 
 ## 通过 Xcode 接入
 
 1. 选择 **File > Add Package Dependencies...**。
 2. 输入 `https://github.com/AdsEye/AdsEyeSDK.git`。
-3. Dependency Rule 选择 **Exact Version**，填写 `1.4.22`。
+3. Dependency Rule 选择 **Exact Version**，填写 `1.4.23`。
 4. 将 product `AdsEyeAdSDK` 添加到媒体 App target。
 
 ADX 和各聚合 Adapter 使用独立仓库，需要时可以继续通过 Add Package Dependencies 单独添加。
