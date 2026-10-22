@@ -17,6 +17,7 @@ let package = Package(
     dependencies: [
         .target(name: "AdsEyeAdSDK")
     ],
+    resources: [.copy("Resources/AdsEyeAdBundle.bundle")],
     linkerSettings: [
         .linkedFramework("UIKit"),
               .linkedFramework("Foundation"),
