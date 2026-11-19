@@ -15,7 +15,8 @@ let package = Package(
         .target(
     name: "AdsEyeCoreLinker",
     dependencies: [
-        .target(name: "AdsEyeAdSDK")
+        .target(name: "AdsEyeAdSDK"),
+              .target(name: "InnoSecureSDK")
     ],
     resources: [.copy("Resources/AdsEyeAdBundle.bundle")],
     linkerSettings: [
@@ -43,8 +44,13 @@ let package = Package(
 ),
               .binaryTarget(
     name: "AdsEyeAdSDK",
-    url: "https://cpc-static-docs.oss-cn-beijing.aliyuncs.com/adseye_sdk_ios/1.4.23/spm/AdsEyeAdSDK-1.4.23-10141536.zip",
-    checksum: "225a26e3b87da8839c087ae22a96a2fab81f11f4db7d5aec0dfbe53b2984189a"
+    url: "https://cpc-static-docs.oss-cn-beijing.aliyuncs.com/adseye_sdk_ios/1.4.24/spm/AdsEyeAdSDK-1.4.24-11191115.zip",
+    checksum: "2a0cbee3f53e7838e412d6f9955ed67bdd2f4dea2810d8167c72f23427cf4cc9"
+),
+              .binaryTarget(
+    name: "InnoSecureSDK",
+    url: "https://cpc-static-docs.oss-cn-beijing.aliyuncs.com/adseye_sdk_ios/1.4.24/spm/InnoSecureSDK-1.4.24-11191115.zip",
+    checksum: "fcf327b58dc2bcf2a61b9bec3abe52ba599440f0df7ccc9addd229c41bad0655"
 )
     ]
 )

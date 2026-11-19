@@ -1,1 +1,1 @@
-// AdsEyeCoreLinker 负责链接 AdsEye 二进制及其基础 SDK；Core 资源由 SwiftPM 自动复制。
+// AdsEyeCoreLinker 负责链接 AdsEye 二进制及其基础 SDK；资源由 SwiftPM 自动复制。
